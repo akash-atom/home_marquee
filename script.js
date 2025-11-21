@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', () => {
+
 const marquee = document.querySelector('.marquee_div')
 const marqueeContent = marquee.firstChild
 
@@ -24,7 +26,7 @@ marqueeAnimation = gsap.fromTo(
     },
     {
         x: distanceToTranslate,
-        duration: 5, 
+        duration: 45, 
         repeat: -1,
         ease: "linear"
     }
@@ -50,3 +52,4 @@ marquee.addEventListener('mouseleave', () => {
 })
 
 window.addEventListener('resize', playMarquee)
+})

@@ -729,7 +729,7 @@ const playMarquee = ()=>{
         x: 0
     }, {
         x: distanceToTranslate,
-        duration: 5,
+        duration: 45,
         repeat: -1,
         ease: "linear"
     });
